@@ -1,0 +1,41 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+    <a class="navbar-brand" href="#">
+        <img src="assets/A-64.png" width="50" height="30" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <!-- <a [routerLink]="['/home']" [routerLinkActive]="['is-active']">Home</a> -->
+                <a class="nav-link" [routerLink]="['/home']" [routerLinkActive]="['is-active']">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/heroes']" [routerLinkActive]="['is-active']">Heroes</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link" [routerLink]="['/about']" [routerLinkActive]="['is-active']">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/videos']" [routerLinkActive]="['is-active']">Videos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/usuarios']" [routerLinkActive]="['is-active']">Usuarios</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/grafica']" [routerLinkActive]="['is-active']">Gráfica</a>
+            </li>
+        </ul>
+        <!--  <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form> -->
+
+        <div class="form-inline my-2 my-lg-0 navbar">
+            <input type="text" class="formcontrol mr-sm-2" placeholder="Buscar Heroe" #buscarTexto (keyup.enter)="buscarUnHeroe(buscarTexto.value);this.buscarTexto.value=''">
+            <button (click)="buscarUnHeroe(buscarTexto.value); this.buscarTexto.value=''" class="btn btn-outline-success my-2 my-sm-0" type="button">Buscar</button>
+        </div>
+    </div>
+</nav>

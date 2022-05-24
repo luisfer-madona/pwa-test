@@ -1,0 +1,18 @@
+<div class="row animated fadeIn fast" *ngIf="indice == -1">
+
+    <div class="co-md-12">
+        <div class="alert alert-info" role="alert">
+            No existen resultados de "'{{nombreh}}'" console.log(que paso);
+
+        </div>
+    </div>
+</div>
+
+<app-unheroe *ngIf="indice != -1" [heroe]='miheroe'></app-unheroe>
+<script>
+    window.setTimeout(function() {
+        $(".rm").fadeTo(200, 0).slideDown(1000, function() {
+            $(this).remove();
+        });
+    }, 3000);
+</script>

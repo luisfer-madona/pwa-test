@@ -1,0 +1,12 @@
+<div class="container">
+    <div class="card">
+        <h1 class="text-center">Videos relevantes</h1>
+        <div class="container mt-2">
+            <div class="row">
+                <div *ngFor="let v of videos" class="col">
+                    <youtube-player [videoId]="v.video" [height]="400" [width]="500"></youtube-player>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

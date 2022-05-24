@@ -1,0 +1,81 @@
+<div class="jumbotron text-center">
+    <h1 class="display-4 text-center">Bienvenid@</h1>
+    <p class="lead text-center">¿Quieres recibir mas informacion sobre comics?</p>
+    <hr class="my-4 text-center">
+    <p class="lead text-center">Presiona el siguiente boton y registrate a nuestro newsletter</p>
+    <p><a href="#" data-toggle="modal" data-target="#demoModal" class="btn animated fadeIn btn-cta btn-cstm-light">REGISTRATE AQUI</a></p>
+</div>
+
+<body oncontextmenu='return false' class='snippet-body'>
+    <link rel='stylesheet' href='https://d33wubrfki0l68.cloudfront.net/css/68818763319cf667ed141dc03e654e8db3424772/assets/css/animate.min.css' />
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Overpass:300,400,600,700,800,900" rel="stylesheet">
+
+    <div class="modal fade auto-off" id="demoModal" tabindex="-1" role="dialog" aria-labelledby="demoModal" aria-hidden="true">
+        <div class="modal-dialog animated zoomInDown modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="container-fluid">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="row">
+                        <div class="col-md-12 m-h-20 bg-img rounded-left" style="background-image: url('assets/img/comics.jpg');"></div>
+                        <div class="col-md-12 text-center py-4 px-sm-5 ">
+                            <h2>Registrate al Newsletter</h2>
+                        </div>
+                        <form class="form-group col-md-12 text-center py-3 px-sm-5 needs-validation" style="text-align: center;" id="formularioSubs">
+                            <form action="" class="form-inline col-md-12">
+                                <label class="sr-only" for="inlineFormInputGroupUsername2">Tu nombre</label>
+                                <div class="input-group mb-2 mr-sm-2">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text">Nombre&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                                    </div>
+                                    <input type="text" class="form-control" id="inlineFormInputGroupNombre" placeholder="Tu nombre" required>
+                                </div>
+                            </form>
+                            <form action="" class="form-inline col-md-12">
+                                <div class="input-group mb-2 mr-sm-2">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text">Sexo&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                                    </div>
+                                    <select class="custom-select" id="inlineFormInputGroupSexo">
+                                        <option selected class="form-control">Elige tu sexo</option>
+                                        <option value="masculino">Masculino</option>
+                                        <option value="femenino">Femenino</option>
+                                        <option value="otro">Otro/Prefiero no responder</option>    
+                                    </select>
+                                </div>
+
+                            </form>
+                            <form action="" class="form-inline col-md-12">
+                                <label class="sr-only" for="inlineFormInputGroupUsername2">Tu email</label>
+                                <div class="input-group mb-2 mr-sm-2">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text">Correo&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                                    </div>
+                                    <input type="email" class="form-control" id="inlineFormInputGroupCorreo" placeholder="Tu email">
+                                </div>
+                            </form>
+                            <form action="" class="form-inline col-md-12">
+                                <label class="sr-only" for="inlineFormInputGroupUsername2"></label>
+                                <div class="input-group mb-2 mr-sm-2">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text">Nacimiento</div>
+                                    </div>
+                                    <input type="date" id="inlineFormInputGroupFechaNacimiento" name="trip-start" value="2000-01-01" min="1922-01-01" max="2010-12-31">
+                                </div>
+                            </form>
+
+                        </form>
+                        <hr>
+                        <div class="modal-footer text-center text-center col-md-12">
+                            <hr>
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn animated fadeIn btn-cta btn-cstm-light" onclick="validarFormulario()" (click)="llamarSwal();">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

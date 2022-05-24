@@ -1,0 +1,14 @@
+@media (min-width: 254px) {
+    .navbar .navbar-nav {
+        display: flex;
+        float: none;
+        vertical-align: top;
+    }
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+
+.formcontrol {
+    width: 70%;
+}

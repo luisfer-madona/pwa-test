@@ -1,0 +1,6 @@
+.card-columns {
+    display: grid;
+    gap: 1rem;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+}
