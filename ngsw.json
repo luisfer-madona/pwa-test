@@ -1,0 +1,133 @@
+{
+  "configVersion": 1,
+  "timestamp": 1653430136686,
+  "index": "https://luisfer-madona.github.io/pwa-test/src/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://luisfer-madona.github.io/pwa-test/src/favicon.ico",
+        "https://luisfer-madona.github.io/pwa-test/src/index.html",
+        "https://luisfer-madona.github.io/pwa-test/src/main.eab18bcac468e96e.js",
+        "https://luisfer-madona.github.io/pwa-test/src/manifest.webmanifest",
+        "https://luisfer-madona.github.io/pwa-test/src/polyfills.f280a8b15a86a4af.js",
+        "https://luisfer-madona.github.io/pwa-test/src/runtime.8f4748ca731f90d5.js",
+        "https://luisfer-madona.github.io/pwa-test/src/styles.da38f33668223151.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://luisfer-madona.github.io/pwa-test/src/assets/A-64.png",
+        "https://luisfer-madona.github.io/pwa-test/src/assets/A-641.png",
+        "https://luisfer-madona.github.io/pwa-test/src/assets/icons/icon-128x128.png",
+        "https://luisfer-madona.github.io/pwa-test/src/assets/icons/icon-144x144.png",
+        "https://luisfer-madona.github.io/pwa-test/src/assets/icons/icon-152x152.png",
+        "https://luisfer-madona.github.io/pwa-test/src/assets/icons/icon-192x192.png",
+        "https://luisfer-madona.github.io/pwa-test/src/assets/icons/icon-384x384.png",
+        "https://luisfer-madona.github.io/pwa-test/src/assets/icons/icon-512x512.png",
+        "https://luisfer-madona.github.io/pwa-test/src/assets/icons/icon-72x72.png",
+        "https://luisfer-madona.github.io/pwa-test/src/assets/icons/icon-96x96.png",
+        "https://luisfer-madona.github.io/pwa-test/src/assets/img/aquaman.png",
+        "https://luisfer-madona.github.io/pwa-test/src/assets/img/banner.jpg",
+        "https://luisfer-madona.github.io/pwa-test/src/assets/img/batman.png",
+        "https://luisfer-madona.github.io/pwa-test/src/assets/img/comics.jpg",
+        "https://luisfer-madona.github.io/pwa-test/src/assets/img/construccion.jpg",
+        "https://luisfer-madona.github.io/pwa-test/src/assets/img/daredevil.png",
+        "https://luisfer-madona.github.io/pwa-test/src/assets/img/dc.jpg",
+        "https://luisfer-madona.github.io/pwa-test/src/assets/img/flash.png",
+        "https://luisfer-madona.github.io/pwa-test/src/assets/img/hulk.png",
+        "https://luisfer-madona.github.io/pwa-test/src/assets/img/img.jpg",
+        "https://luisfer-madona.github.io/pwa-test/src/assets/img/iron.png",
+        "https://luisfer-madona.github.io/pwa-test/src/assets/img/linterna-verde.png",
+        "https://luisfer-madona.github.io/pwa-test/src/assets/img/marvel.jpg",
+        "https://luisfer-madona.github.io/pwa-test/src/assets/img/mujer.png",
+        "https://luisfer-madona.github.io/pwa-test/src/assets/img/robin.png",
+        "https://luisfer-madona.github.io/pwa-test/src/assets/img/spiderman.png",
+        "https://luisfer-madona.github.io/pwa-test/src/assets/img/super.png",
+        "https://luisfer-madona.github.io/pwa-test/src/assets/img/thor.png",
+        "https://luisfer-madona.github.io/pwa-test/src/assets/img/wolverine.png",
+        "https://luisfer-madona.github.io/pwa-test/src/assets/js/bootstrap.bundle.min.js",
+        "https://luisfer-madona.github.io/pwa-test/src/assets/js/iziToast.js",
+        "https://luisfer-madona.github.io/pwa-test/src/assets/js/jquery.slim.min.js",
+        "https://luisfer-madona.github.io/pwa-test/src/assets/js/modalFormulario.js",
+        "https://luisfer-madona.github.io/pwa-test/src/assets/js/tablaUsuarios.js"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://luisfer-madona.github.io/pwa-test/src/assets/A-64.png": "3a73b42f5419700528cc00fe9d26befcd73f009c",
+    "https://luisfer-madona.github.io/pwa-test/src/assets/A-641.png": "e22d6898af44efbc2cb66383d1947d07088b35e3",
+    "https://luisfer-madona.github.io/pwa-test/src/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://luisfer-madona.github.io/pwa-test/src/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://luisfer-madona.github.io/pwa-test/src/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://luisfer-madona.github.io/pwa-test/src/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://luisfer-madona.github.io/pwa-test/src/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://luisfer-madona.github.io/pwa-test/src/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://luisfer-madona.github.io/pwa-test/src/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://luisfer-madona.github.io/pwa-test/src/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://luisfer-madona.github.io/pwa-test/src/assets/img/aquaman.png": "014fcfb4487775e9d7c561da9f2d16e61155a3d9",
+    "https://luisfer-madona.github.io/pwa-test/src/assets/img/banner.jpg": "6b8c47d5df0e34e561817a29600ed7eb75ef57dc",
+    "https://luisfer-madona.github.io/pwa-test/src/assets/img/batman.png": "06eb143f83b48fe62aba2af0871d91db40e81d42",
+    "https://luisfer-madona.github.io/pwa-test/src/assets/img/comics.jpg": "3b5bb1caae88fa17a12600f6f934d62c7a5d8ee5",
+    "https://luisfer-madona.github.io/pwa-test/src/assets/img/construccion.jpg": "d9d5e2ff24326852b0f0a319a66fb70d6956d43a",
+    "https://luisfer-madona.github.io/pwa-test/src/assets/img/daredevil.png": "da9797ceba1c570e5b07ba3da430ba3b986dce49",
+    "https://luisfer-madona.github.io/pwa-test/src/assets/img/dc.jpg": "c5736878c0fdf41b396a74ba1460a118d5d781b1",
+    "https://luisfer-madona.github.io/pwa-test/src/assets/img/flash.png": "59f2ebcae48e205b624069e4f35f8e19c8338f1f",
+    "https://luisfer-madona.github.io/pwa-test/src/assets/img/hulk.png": "44bfdccc96ff552ca708ae9775cf4757f981ecee",
+    "https://luisfer-madona.github.io/pwa-test/src/assets/img/img.jpg": "49df81a11374ab0c7719ead7e83fcadd874bc520",
+    "https://luisfer-madona.github.io/pwa-test/src/assets/img/iron.png": "d6866b8dee7cc0a4ac25c4decba7f87ee94f7786",
+    "https://luisfer-madona.github.io/pwa-test/src/assets/img/linterna-verde.png": "0943883c4a1e710be7f16b110c8f76ce84649c67",
+    "https://luisfer-madona.github.io/pwa-test/src/assets/img/marvel.jpg": "67d1f07e47b39e13869ff43b4a3d29b22c6d98c2",
+    "https://luisfer-madona.github.io/pwa-test/src/assets/img/mujer.png": "a7fdb679287b0f370f0dee873897d586fdf80c58",
+    "https://luisfer-madona.github.io/pwa-test/src/assets/img/robin.png": "00f9a2ab0c333c849f3d441f719e2630cd245147",
+    "https://luisfer-madona.github.io/pwa-test/src/assets/img/spiderman.png": "3310b8f0ed2b1659d2b3f4e8b614df0bfd175ac4",
+    "https://luisfer-madona.github.io/pwa-test/src/assets/img/super.png": "71b4ad5515162dc503f584c835907e4a8c98c6a2",
+    "https://luisfer-madona.github.io/pwa-test/src/assets/img/thor.png": "11da594655ec88bc38e402e43c7a93f35406276e",
+    "https://luisfer-madona.github.io/pwa-test/src/assets/img/wolverine.png": "0a13fe72859cce7aba6cf665547e0bbd470ec73e",
+    "https://luisfer-madona.github.io/pwa-test/src/assets/js/bootstrap.bundle.min.js": "f0839078b97a52760a7aabfe185af46a5205476d",
+    "https://luisfer-madona.github.io/pwa-test/src/assets/js/iziToast.js": "02dd58a49fb5680f5a0ddd4906eff90f5b0cac7d",
+    "https://luisfer-madona.github.io/pwa-test/src/assets/js/jquery.slim.min.js": "d1c6704e94efe2d465fc161b6381e127d35acd81",
+    "https://luisfer-madona.github.io/pwa-test/src/assets/js/modalFormulario.js": "cb9cb7aacb64769c39b0cc2a87503cfd48c2d541",
+    "https://luisfer-madona.github.io/pwa-test/src/assets/js/tablaUsuarios.js": "69f1dcd087e0b4e979019a3eb5b755b39bccf08c",
+    "https://luisfer-madona.github.io/pwa-test/src/favicon.ico": "70436a512456c8e0f4205c8a2df430dbebb64070",
+    "https://luisfer-madona.github.io/pwa-test/src/index.html": "86a9ea361a24fc8e7583c122a4fbbad3f8e82761",
+    "https://luisfer-madona.github.io/pwa-test/src/main.eab18bcac468e96e.js": "4630ed1f7b3c86b515334bea7cea6acf03826775",
+    "https://luisfer-madona.github.io/pwa-test/src/manifest.webmanifest": "4d8dafef1e45d2278e999f4bd42d4de8f1c8a016",
+    "https://luisfer-madona.github.io/pwa-test/src/polyfills.f280a8b15a86a4af.js": "59d01b8f64dfbca0206a5e7d6cab1c03fddeb347",
+    "https://luisfer-madona.github.io/pwa-test/src/runtime.8f4748ca731f90d5.js": "a1dbf5d1feaa6ae006f816eb7cc9976c117bd23b",
+    "https://luisfer-madona.github.io/pwa-test/src/styles.da38f33668223151.css": "cd90129627c6645c231393470a209e023c74c6e8"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
